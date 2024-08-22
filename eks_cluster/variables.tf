@@ -94,6 +94,7 @@ variable "enable_endpoint_private_access" {
 
 variable "enable_endpoint_public_access" {
   description = "Flag to enable public endpoint for EKS Master"
+  default = false
 }
 
 variable "security_group_ids" {
